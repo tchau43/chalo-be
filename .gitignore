@@ -1,0 +1,54 @@
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+**/dist/
+**/build/
+**/coverage/
+
+# NestJS / TypeScript cache
+*.tsbuildinfo
+.turbo/
+
+# Runtime / uploads
+uploads/
+chalo-be/uploads/
+
+# Generated dump files
+SRC_TREE.md
+SRC_CODE_DUMP.md
+PROJECT_CODE_DUMP.md
+GIT_COMMIT_CHANGES.md
+chalo-be/SRC_TREE.md
+chalo-be/SRC_CODE_DUMP.md
+chalo-be/PROJECT_CODE_DUMP.md
+chalo-be/GIT_COMMIT_CHANGES.md
+
+# Miscellaneous evaluation, review, and prompt files
+PROJECT_CODE_DUMP_BE.md
+api.judge.md
+chalo-coffee-document.md
+review/
+
